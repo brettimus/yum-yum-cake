@@ -52,7 +52,7 @@ def find_y_intersection(y1,h1,y2,h2):
 	if (y1 <= y2) and (y2-h2 < y1):
 		result_y = y1
 		result_h = min(y1 - (y2-h2), h1)
-	# Case 2: top y-coord of the SECOND rectangle lies in second rectangle's y-interval		
+	# Case 2: top y-coord of the SECOND rectangle lies in first rectangle's y-interval		
 	elif (y2 <= y1) and (y1-h1 < y2):
 		result_y = y2
 		result_h = min(y2-(y1-h1), h2)
