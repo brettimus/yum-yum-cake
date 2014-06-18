@@ -9,7 +9,7 @@ We can break our solution into two parts that handle each dimension separately.
 ## All the info we need
 Given the top-left coordinate `(x,y)` and a description of its width and height, 
 we have a rectangle whose vertices are described (clock-wise) by the set
-`{(x,y),(x+w,y),(x+w,y-h),(x,y-h)}`
+`{(x,y),(x+w,y),(x+y,y-h),(x,y-h)}`
 
 ## Intersecting intervals
 If the rectangles intersect, 
