@@ -22,7 +22,7 @@ Of course, same goes for their y-intervals.
 ### For the top-left `y` coords
 
 ## Runtime and Space Complexity
-Both should be constant, yeah?
+We have a fixed input in this case so meh. 
 
 ***
 
